@@ -1,0 +1,14 @@
+#CommandName,ReturnType,ParameterTypes,Windows,Linux,Mac,Android,iOS,Windows64
+Initialize,I,0,Initialize,0,0,0,0,0
+Uninitialize,0,0,Uninitialize,0,0,0,0,0
+CreateFinder,I,0,CreateFinder,0,0,0,0,0
+DeleteFinder,0,0,DeleteFinder,0,0,0,0,0
+FindSources,S,I,FindSources,0,0,0,0,0
+CreateReceiver,I,I,CreateReceiver,0,0,0,0,0
+DeleteReceiver,0,I,DeleteReceiver,0,0,0,0,0
+ConnectReceiver,I,IS,ConnectReceiver,0,0,0,0,0
+ReceiveFrame,0,IIII,ReceiveFrame,0,0,0,0,0
+CreateSender,I,I,?CreateSender@@YAHH@Z,0,0,0,0,0
+CreateSender,I,IS,?CreateSender@@YAHHPAD@Z,0,0,0,0,0
+DeleteSender,0,I,DeleteSender,0,0,0,0,0
+SendFrame,0,II,SendFrame,0,0,0,0,0
